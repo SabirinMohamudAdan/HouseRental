@@ -1,12 +1,13 @@
+import React from "react";
+
+import Home from "./Pages/Home/Home";
 
 function App() {
-
-
   return (
-    <>
-      <h1>hello rental house</h1>
-    </>
-  )
+    <div>
+      <Home />
+    </div>
+  );
 }
 
-export default App
+export default App;
